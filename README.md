@@ -1,6 +1,6 @@
 # CLIP, SgLIP, and A-CLIP Fine-Tuning on Human Action Recognition (HAR) Dataset
 
-This project explores **vision-language model fine-tuning** for the **Human Action Recognition (HAR)** dataset as part of the *CAP 6411 – Computer Vision Systems* course at the University of Central Florida.
+This project explores **vision-language model fine-tuning** for the **Human Action Recognition (HAR)** dataset
 
 ---
 
