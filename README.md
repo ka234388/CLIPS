@@ -120,13 +120,17 @@ You can reproduce fine-tuning by running the respective notebooks:
 CLIP.ipynb
 SgLIP.ipynb
 A-CLIP.ipynb
-
+---
 ## 🧩 Installation
 
 Make sure to install the required dependencies:
 
 ```bash
 pip install torch torchvision transformers
+
+---
+**## Results Summary
+**
 | Model      | Validation Accuracy | Best Epoch | Time per Epoch | Peak GPU Memory |
 | :--------- | :-----------------: | :--------: | :------------: | :-------------: |
 | **CLIP**   |        32.1%        |     10     |      385s      |      1.9GB      |
