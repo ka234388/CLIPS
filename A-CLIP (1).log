@@ -1,0 +1,27 @@
+2025-09-14 01:44:05 | INFO | A-CLIP | Logger initialized.
+2025-09-14 01:44:05 | INFO | A-CLIP | PyTorch: 2.6.0+cu124, CUDA available: True
+2025-09-14 01:44:05 | INFO | A-CLIP | Device in use: cuda
+2025-09-14 01:46:47 | INFO | A-CLIP | Starting A-CLIP training..
+2025-09-14 01:46:56 | INFO | A-CLIP | Detected 15 classes: ['calling', 'clapping', 'cycling', 'dancing', 'drinking', 'eating', 'fighting', 'hugging', 'laughing', 'listening_to_music', 'running', 'sitting', 'sleeping', 'texting', 'using_laptop']
+2025-09-14 01:46:56 | INFO | A-CLIP | Train samples: 10710 | Test samples: 1890
+2025-09-14 01:46:57 | INFO | A-CLIP | A-CLIP model built. Embed dim: 4096, Trainable params: 151.29M
+2025-09-14 01:48:15 | INFO | A-CLIP | [A-CLIP] E1/10 | train 5.3210/0.130 | val 5.0639/0.248 | contr 2.6605 | class 2.6605 | 69.0s | peak 4859.1MB
+2025-09-14 01:48:16 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.2476 at epoch 1
+2025-09-14 01:49:33 | INFO | A-CLIP | [A-CLIP] E2/10 | train 5.0777/0.251 | val 4.9794/0.285 | contr 2.5389 | class 2.5389 | 68.8s | peak 4859.6MB
+2025-09-14 01:49:35 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.2852 at epoch 2
+2025-09-14 01:50:51 | INFO | A-CLIP | [A-CLIP] E3/10 | train 4.7170/0.422 | val 4.3745/0.546 | contr 2.3585 | class 2.3585 | 68.1s | peak 3530.7MB
+2025-09-14 01:50:52 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.5455 at epoch 3
+2025-09-14 01:52:09 | INFO | A-CLIP | [A-CLIP] E4/10 | train 4.0481/0.599 | val 3.7261/0.602 | contr 2.0241 | class 2.0241 | 67.9s | peak 3530.7MB
+2025-09-14 01:52:10 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.6016 at epoch 4
+2025-09-14 01:53:28 | INFO | A-CLIP | [A-CLIP] E5/10 | train 3.5455/0.628 | val 3.4593/0.594 | contr 1.7728 | class 1.7728 | 69.0s | peak 3530.7MB
+2025-09-14 01:54:44 | INFO | A-CLIP | [A-CLIP] E6/10 | train 3.2329/0.652 | val 2.9953/0.680 | contr 1.6164 | class 1.6164 | 68.1s | peak 3530.7MB
+2025-09-14 01:54:46 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.6804 at epoch 6
+2025-09-14 01:56:02 | INFO | A-CLIP | [A-CLIP] E7/10 | train 2.6805/0.728 | val 2.5934/0.695 | contr 1.3402 | class 1.3402 | 67.9s | peak 3530.7MB
+2025-09-14 01:56:03 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.6952 at epoch 7
+2025-09-14 01:57:20 | INFO | A-CLIP | [A-CLIP] E8/10 | train 2.2686/0.777 | val 2.3159/0.743 | contr 1.1343 | class 1.1343 | 68.6s | peak 3530.7MB
+2025-09-14 01:57:22 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.7434 at epoch 8
+2025-09-14 01:58:39 | INFO | A-CLIP | [A-CLIP] E9/10 | train 1.9212/0.820 | val 2.0362/0.763 | contr 0.9606 | class 0.9606 | 68.9s | peak 3530.7MB
+2025-09-14 01:58:40 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.7630 at epoch 9
+2025-09-14 01:59:58 | INFO | A-CLIP | [A-CLIP] E10/10 | train 1.5916/0.850 | val 1.7729/0.793 | contr 0.7958 | class 0.7958 | 69.1s | peak 3530.7MB
+2025-09-14 01:59:59 | INFO | A-CLIP | New best A-CLIP model saved with accuracy: 0.7931 at epoch 10
+2025-09-14 02:00:02 | INFO | A-CLIP | A-CLIP training completed! Best validation accuracy: 0.7931

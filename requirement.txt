@@ -1,0 +1,13 @@
+torch>=2.6.0
+torchvision
+numpy
+pandas
+open-clip-torch
+timm
+scikit-learn
+seaborn
+matplotlib
+transformers
+Pillow
+pathlib
+logging

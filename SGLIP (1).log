@@ -1,0 +1,24 @@
+2025-09-17 02:29:57 | INFO | SGLIP | Logger initialized.
+2025-09-17 02:29:57 | INFO | SGLIP | PyTorch: 2.6.0+cu124, CUDA available: True
+2025-09-17 02:29:57 | INFO | SGLIP | Device in use: cuda
+2025-09-17 02:30:28 | INFO | SGLIP | Starting SIGLIP training...
+2025-09-17 02:30:53 | INFO | SGLIP | Detected 15 classes: ['calling', 'clapping', 'cycling', 'dancing', 'drinking', 'eating', 'fighting', 'hugging', 'laughing', 'listening_to_music', 'running', 'sitting', 'sleeping', 'texting', 'using_laptop']
+2025-09-17 02:30:53 | INFO | SGLIP | Train samples: 10710 | Test samples: 1890
+2025-09-17 02:30:54 | INFO | SGLIP | SigLIP model built. Embed dim: 768, Trainable params: 92.90M
+2025-09-17 02:30:54 | INFO | SGLIP | Classes: ['calling', 'clapping', 'cycling', 'dancing', 'drinking', 'eating', 'fighting', 'hugging', 'laughing', 'listening_to_music', 'running', 'sitting', 'sleeping', 'texting', 'using_laptop']
+2025-09-17 02:30:54 | INFO | SGLIP | Effective BS: 512 (micro 64 x accum 8)
+2025-09-17 02:30:54 | INFO | SGLIP | Trainable params: 92.90M
+2025-09-17 02:30:54 | INFO | SGLIP | Large batch training - accumulation steps: 8
+2025-09-17 02:35:58 | INFO | SGLIP | [SIGLIP] E1/10 | train 2.2509/0.615 | val 1.8035/0.827 | contr 2.2509 | class 2.2509 | 284.5s | peak 3582.7MB 
+2025-09-17 02:35:59 | INFO | SGLIP | New best SIGLIP model saved with accuracy: 0.8270 at epoch 1
+2025-09-17 02:41:02 | INFO | SGLIP | [SIGLIP] E2/10 | train 1.6392/0.881 | val 1.6217/0.848 | contr 1.6392 | class 1.6392 | 283.9s | peak 3581.7MB 
+2025-09-17 02:41:03 | INFO | SGLIP | New best SIGLIP model saved with accuracy: 0.8476 at epoch 2
+2025-09-17 02:46:05 | INFO | SGLIP | [SIGLIP] E3/10 | train 1.4869/0.932 | val 1.5885/0.840 | contr 1.4869 | class 1.4869 | 283.0s | peak 3581.7MB 
+2025-09-17 02:51:07 | INFO | SGLIP | [SIGLIP] E4/10 | train 1.4219/0.946 | val 1.5509/0.843 | contr 1.4219 | class 1.4219 | 283.1s | peak 3581.7MB 
+2025-09-17 02:56:09 | INFO | SGLIP | [SIGLIP] E5/10 | train 1.3717/0.952 | val 1.5371/0.827 | contr 1.3717 | class 1.3717 | 283.3s | peak 3581.7MB 
+2025-09-17 03:01:12 | INFO | SGLIP | [SIGLIP] E6/10 | train 1.3351/0.951 | val 1.5107/0.823 | contr 1.3351 | class 1.3351 | 283.6s | peak 3581.7MB 
+2025-09-17 03:06:14 | INFO | SGLIP | [SIGLIP] E7/10 | train 1.2879/0.957 | val 1.4641/0.838 | contr 1.2879 | class 1.2879 | 283.6s | peak 3581.7MB 
+2025-09-17 03:11:17 | INFO | SGLIP | [SIGLIP] E8/10 | train 1.2318/0.969 | val 1.4274/0.836 | contr 1.2318 | class 1.2318 | 284.2s | peak 3581.7MB 
+2025-09-17 03:16:21 | INFO | SGLIP | [SIGLIP] E9/10 | train 1.1923/0.971 | val 1.4017/0.832 | contr 1.1923 | class 1.1923 | 284.2s | peak 3581.7MB 
+2025-09-17 03:21:25 | INFO | SGLIP | [SIGLIP] E10/10 | train 1.1488/0.974 | val 1.4099/0.817 | contr 1.1488 | class 1.1488 | 284.7s | peak 3581.7MB 
+2025-09-17 03:21:28 | INFO | SGLIP | SIGLIP training completed! Best validation accuracy: 0.8476
