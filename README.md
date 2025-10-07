@@ -113,6 +113,15 @@ University of Central Florida
 
 ---
 
+## 🏁 Results Summary
+
+| Model | Validation Accuracy | Best Epoch | Time per Epoch | Peak GPU Memory |
+|:------|:--------------------:|:-----------:|:---------------:|:----------------:|
+| **CLIP** | 32.1% | 10 | 385s | 1.9GB |
+| **SgLIP** | 84.8% | 2 | 284s | 3.5GB |
+| **A-CLIP** | 79.3% | 10 | 69s | 3.5GB |
+---
+
 ## 🪄 How to Run
 
 You can reproduce fine-tuning by running the respective notebooks:
